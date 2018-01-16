@@ -5,19 +5,37 @@ public abstract class FabriquePoint
 {
     public static InterPoint create (String typePoint, double arg1, double arg2) throws Exception
     {
-        if(typePoint == "Point")
+        try
         {
-            Point p1 = new Point(arg1, arg2);
-            return p1;
+            if(typePoint == "Point" || typePoint == "Point2")
+            {
+                return (InterPoint) Class.forName(typePoint).getConstructor(double.class, double.class).newInstance(arg1,arg2);
+            }
+            else
+            {
+                // On veut qu'on ne puisse pas créer d'autre classe que celle de Point et Point2
+                throw new IllegalArgumentException("Mauvais argument dans la fabrique a point");
+            }
         }
-        else if (typePoint == "Point2")
+        catch (ClassNotFoundException e)
         {
-            Point2 p2 = new Point2(arg1,arg2);
-            return p2;
+            e.printStackTrace();
+            return null;
         }
-        else
+        catch (InstantiationException e)
         {
-            throw new Exception("Mauvais argument dans la fabrique a point");
+            e.printStackTrace();
+            return null;
         }
+        catch (IllegalAccessException e)
+        {
+            e.printStackTrace();
+            return null;
+        }
+        catch (IllegalArgumentException e)
+        {
+            throw new Exception(e.getMessage());
+        }
+
     }
 }
