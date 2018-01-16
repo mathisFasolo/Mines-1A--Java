@@ -24,6 +24,7 @@ public class Main
             System.out.println(c1.toString());
             System.out.println(t1.toString());
         }catch(Exception e) {
+            e.printStackTrace();
         }
 
 
