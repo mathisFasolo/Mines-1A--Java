@@ -1,10 +1,10 @@
 package TD1;
 
-public class Point
+public class Point implements InterPoint
 {
     /* ATTRIBUTS */
-    private int x;
-    private int y;
+    private float x;
+    private float y;
 
     /* CONSTRUCTEURS */
     public Point (int x_pos, int y_pos)
@@ -14,23 +14,23 @@ public class Point
     }
 
     /* GETTERS */
-    public int getX ()
+    public float getX ()
     {
         return this.x;
     }
 
-    public int getY ()
+    public float getY ()
     {
         return this.y;
     }
 
     /* SETTERS */
-    public void setX (int x_pos)
+    public void setX (float x_pos)
     {
         this.x = x_pos;
     }
 
-    public void setY (int y_pos)
+    public void setY (float y_pos)
     {
         this.y = y_pos;
     }
