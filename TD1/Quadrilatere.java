@@ -116,7 +116,7 @@ public class Quadrilatere
      * Calcule la largeur du quadrilatère (yD - yA)
      * @return Int
      */
-    public float calculLargeur()
+    public double calculLargeur()
     {
         return this.D.getY() - this.A.getY();
     }
@@ -125,7 +125,7 @@ public class Quadrilatere
      * Calcule la longueur du quadrilatère (xB - xA)
      * @return Int
      * */
-    public float calculLongueur()
+    public double calculLongueur()
     {
         return this.B.getX() - this.A.getX();
     }

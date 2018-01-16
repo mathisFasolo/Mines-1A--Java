@@ -24,7 +24,7 @@ public class Carre extends Rectangle
     }
 
     @Override
-    public float calculAire()
+    public double calculAire()
     {
         return super.calculLargeur() * super.calculLargeur();
     }
@@ -34,4 +34,6 @@ public class Carre extends Rectangle
     {
         return super.calculLargeur() == super.calculLongueur();
     }
+
+
 }

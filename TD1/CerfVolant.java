@@ -23,7 +23,7 @@ public class CerfVolant extends Quadrilatere
         return "Je suis un CerfVolant.";
     }
 
-    public float calculAire()
+    public double calculAire()
     {
         return (super.calculLargeur()*super.calculLongueur())/2;
     }

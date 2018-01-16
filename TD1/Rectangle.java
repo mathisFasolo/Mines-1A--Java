@@ -23,7 +23,7 @@ public class Rectangle extends Parallelogramme
         return "Je suis un Rectangle.";
     }
 
-    public float calculAire()
+    public double calculAire()
     {
         return super.calculLargeur() * super.calculLongueur();
     }

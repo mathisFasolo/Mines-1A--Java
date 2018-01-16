@@ -1,4 +1,5 @@
 package TD1;
+import java.lang.Math;
 /**
  * Classe Point2
  * @author Alexis Jolin
@@ -8,8 +9,8 @@ package TD1;
 
 public class Point2 implements InterPoint {
     /* attributs */
-    private float rayon;
-    private float angle;
+    private double rayon;
+    private double angle;
 
     /* Constructeur*/
     public Point2(float ray,float ang){
@@ -19,19 +20,27 @@ public class Point2 implements InterPoint {
 
     /* getter & setter*/
 
-    public float getRayon() {
+    public double getRayon() {
         return rayon;
     }
 
-    public void setRayon(float rayon) {
+    public void setRayon(double rayon) {
         this.rayon = rayon;
     }
 
-    public float getAngle() {
+    public double getAngle() {
         return angle;
     }
 
-    public void setAngle(float angle) {
+    public void setAngle(double angle) {
         this.angle = angle;
+    }
+
+    public double getX(){
+        return this.rayon*Math.cos(this.angle);
+    }
+
+    public double getY(){
+        return this.rayon*Math.sin(this.angle);
     }
 }
