@@ -6,7 +6,7 @@ package TD1;
  * @author Mathis Fasolo
  * @version 1.0
  */
-public class Trapeze extends Quadrilatere
+public class Trapeze extends Quadrilatere implements InterQuad
 {
     public Trapeze (InterPoint p5, InterPoint p6, InterPoint p7, InterPoint p8)
     {

@@ -1,6 +1,12 @@
 package TD1;
 import java.lang.Exception;
 
+/**
+ * Classe FabriquePointOriginel d-
+ * @author Alexis Jolin
+ * @author Mathis Fasolo
+ * @version 1.0
+ */
 public abstract class FabriquePointOriginel
 {
     public static InterPoint create (String typePoint, double arg1, double arg2) throws Exception

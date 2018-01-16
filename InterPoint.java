@@ -1,5 +1,11 @@
 package TD1;
 
+/**
+ * Interface InterPoint 3-
+ * @author Alexis Jolin
+ * @author Mathis Fasolo
+ * @version 1.0
+ */
 public interface InterPoint
 {
     /**

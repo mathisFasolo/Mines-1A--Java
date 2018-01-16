@@ -6,7 +6,7 @@ package TD1;
  * @author Mathis Fasolo
  * @version 1.0
  */
-public class CerfVolant extends Quadrilatere
+public class CerfVolant extends Quadrilatere implements InterQuad
 {
     public CerfVolant(InterPoint p5, InterPoint p6, InterPoint p7, InterPoint p8)
     {

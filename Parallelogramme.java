@@ -6,7 +6,7 @@ package TD1;
  * @author Mathis Fasolo
  * @version 1.0
  */
-public class Parallelogramme extends Quadrilatere
+public class Parallelogramme extends Quadrilatere implements InterQuad
 {
     public Parallelogramme (InterPoint p5, InterPoint p6, InterPoint p7, InterPoint p8)
     {

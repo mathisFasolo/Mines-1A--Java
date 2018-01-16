@@ -6,7 +6,7 @@ package TD1;
  * @author Mathis Fasolo
  * @version 1.0
  */
-public class Rectangle extends Parallelogramme
+public class Rectangle extends Parallelogramme implements InterQuad
 {
     public Rectangle(InterPoint p5, InterPoint p6, InterPoint p7, InterPoint p8)
     {

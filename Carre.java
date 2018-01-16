@@ -6,7 +6,7 @@ package TD1;
  * @author Mathis Fasolo
  * @version 1.0
  */
-public class Carre extends Rectangle
+public class Carre extends Rectangle implements InterQuad
 {
     public Carre (InterPoint p5, InterPoint p6, InterPoint p7, InterPoint p8)
     {

@@ -6,7 +6,7 @@ package TD1;
  * @author Mathis Fasolo
  * @version 1.0
  */
-public class Losange extends Parallelogramme
+public class Losange extends Parallelogramme implements InterQuad
 {
     public Losange (InterPoint p5, InterPoint p6, InterPoint p7, InterPoint p8)
     {

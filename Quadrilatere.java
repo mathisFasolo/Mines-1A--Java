@@ -6,7 +6,7 @@ package TD1;
  * @author Mathis Fasolo
  * @version 1.0
  */
-public class Quadrilatere
+public class Quadrilatere implements InterQuad
 {
     /* ATTRIBUTS */
     private InterPoint A;
