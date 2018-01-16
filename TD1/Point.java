@@ -13,7 +13,7 @@ public class Point implements InterPoint
     private double y;
 
     /* CONSTRUCTEURS */
-    public Point (int x_pos, int y_pos)
+    public Point (double x_pos, double y_pos)
     {
         this.x = x_pos;
         this.y = y_pos;

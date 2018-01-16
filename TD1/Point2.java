@@ -13,7 +13,7 @@ public class Point2 implements InterPoint {
     private double angle;
 
     /* Constructeur*/
-    public Point2(float ray,float ang){
+    public Point2(double ray,double ang){
         this.rayon=ray;
         this.angle=ang;
     }
