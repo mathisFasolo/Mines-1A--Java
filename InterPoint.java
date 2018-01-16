@@ -4,13 +4,13 @@ public interface InterPoint
 {
     /**
      * Permet d'obtenir la position x du point dans le plan
-     * @return float
+     * @return double
      */
-    float getX();
+    double getX();
 
     /**
      * Permet d'obtenir la position y du point dans le plan
-     * @return float
+     * @return double
      */
-    float getY();
+    double getY();
 }
