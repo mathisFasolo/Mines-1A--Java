@@ -1,5 +1,11 @@
 package TD1;
 
+/**
+ * Classe Point
+ * @author Alexis Jolin
+ * @author Mathis Fasolo
+ * @version 1.0
+ */
 public class Point implements InterPoint
 {
     /* ATTRIBUTS */

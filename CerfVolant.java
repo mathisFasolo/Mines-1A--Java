@@ -8,7 +8,7 @@ package TD1;
  */
 public class CerfVolant extends Quadrilatere
 {
-    public CerfVolant(Point p5, Point p6, Point p7, Point p8)
+    public CerfVolant(InterPoint p5, InterPoint p6, InterPoint p7, InterPoint p8)
     {
         super(p5,p6,p7,p8);
     }
@@ -23,7 +23,7 @@ public class CerfVolant extends Quadrilatere
         return "Je suis un CerfVolant.";
     }
 
-    public int calculAire()
+    public float calculAire()
     {
         return (super.calculLargeur()*super.calculLongueur())/2;
     }

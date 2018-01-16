@@ -8,7 +8,7 @@ package TD1;
  */
 public class Carre extends Rectangle
 {
-    public Carre (Point p5, Point p6, Point p7, Point p8)
+    public Carre (InterPoint p5, InterPoint p6, InterPoint p7, InterPoint p8)
     {
         super(p5, p6, p7, p8);
     }
@@ -24,7 +24,7 @@ public class Carre extends Rectangle
     }
 
     @Override
-    public int calculAire()
+    public float calculAire()
     {
         return super.calculLargeur() * super.calculLargeur();
     }

@@ -9,13 +9,13 @@ package TD1;
 public class Quadrilatere
 {
     /* ATTRIBUTS */
-    private Point A;
-    private Point B;
-    private Point C;
-    private Point D;
+    private InterPoint A;
+    private InterPoint B;
+    private InterPoint C;
+    private InterPoint D;
 
     /* CONSTRUCTEURS */
-    public Quadrilatere (Point p5, Point p6, Point p7, Point p8)
+    public Quadrilatere (InterPoint p5, InterPoint p6, InterPoint p7, InterPoint p8)
     {
         this.A = p5;
         this.B = p6;
@@ -24,22 +24,22 @@ public class Quadrilatere
     }
 
     /* GETTERS */
-    public Point getA()
+    public InterPoint getA()
     {
         return A;
     }
 
-    public Point getB()
+    public InterPoint getB()
     {
         return B;
     }
 
-    public Point getC()
+    public InterPoint getC()
     {
         return C;
     }
 
-    public Point getD()
+    public InterPoint getD()
     {
         return D;
     }
@@ -72,7 +72,7 @@ public class Quadrilatere
         @param  p Point : le point
         @return String : une chaine de caractère contenant les coordonnées du point formatés
      */
-    public String coordonnees(Point p)
+    public String coordonnees(InterPoint p)
     {
         return "(" + p.getX()+","+p.getY()+")";
     }
@@ -116,7 +116,7 @@ public class Quadrilatere
      * Calcule la largeur du quadrilatère (yD - yA)
      * @return Int
      */
-    public int calculLargeur()
+    public float calculLargeur()
     {
         return this.D.getY() - this.A.getY();
     }
@@ -125,7 +125,7 @@ public class Quadrilatere
      * Calcule la longueur du quadrilatère (xB - xA)
      * @return Int
      * */
-    public int calculLongueur()
+    public float calculLongueur()
     {
         return this.B.getX() - this.A.getX();
     }

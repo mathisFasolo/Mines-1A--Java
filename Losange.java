@@ -8,7 +8,7 @@ package TD1;
  */
 public class Losange extends Parallelogramme
 {
-    public Losange (Point p5, Point p6, Point p7, Point p8)
+    public Losange (InterPoint p5, InterPoint p6, InterPoint p7, InterPoint p8)
     {
         super(p5, p6, p7, p8);
     }

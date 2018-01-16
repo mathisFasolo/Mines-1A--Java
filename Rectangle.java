@@ -8,7 +8,7 @@ package TD1;
  */
 public class Rectangle extends Parallelogramme
 {
-    public Rectangle(Point p5, Point p6, Point p7, Point p8)
+    public Rectangle(InterPoint p5, InterPoint p6, InterPoint p7, InterPoint p8)
     {
         super(p5,p6,p7,p8);
     }
@@ -23,7 +23,7 @@ public class Rectangle extends Parallelogramme
         return "Je suis un Rectangle.";
     }
 
-    public int calculAire()
+    public float calculAire()
     {
         return super.calculLargeur() * super.calculLongueur();
     }

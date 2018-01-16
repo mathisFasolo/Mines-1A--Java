@@ -1,12 +1,12 @@
 package TD1;
 /**
- * Classe Paralleligramme
+ * Classe Point2
  * @author Alexis Jolin
  * @author Mathis Fasolo
  * @version 1.0
  */
 
-public class Point2{
+public class Point2 implements InterPoint {
     /* attributs */
     private float rayon;
     private float angle;
