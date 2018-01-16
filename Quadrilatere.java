@@ -78,12 +78,21 @@ public class Quadrilatere
     }
 
     /**
-     * Affiche les propriétés géométriques de la figure
+     * Retourne le type de la figure
+     * @return String
+     */
+    public String type()
+    {
+        return "Je suis un quadrilatère quelconque.";
+    }
+
+    /**
+     * Retourne les propriétés géomètrique de la figure
      * @return String
      */
     public String propriete()
     {
-        return "Je suis un quadrilatère quelconque.";
+        return "Je n'est aucune propriété particulière.";
     }
 
     /**
@@ -100,7 +109,7 @@ public class Quadrilatere
      */
     public String toString()
     {
-        return propriete() + "Mes sommets ont pour coordonnées " + coordonnees(A) +","+coordonnees(B)+","+coordonnees(C)+" et " + coordonnees(D)+".";
+        return type() + propriete() + "Mes sommets ont pour coordonnées " + coordonnees(A) +","+coordonnees(B)+","+coordonnees(C)+" et " + coordonnees(D)+".";
     }
 
     /**

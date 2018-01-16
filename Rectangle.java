@@ -18,6 +18,11 @@ public class Rectangle extends Parallelogramme
         return "Un rectangle est un quadrilatère dont les 4 angles sont droits.";
     }
 
+    public String type()
+    {
+        return "Je suis un Rectangle.";
+    }
+
     public int calculAire()
     {
         return super.calculLargeur() * super.calculLongueur();

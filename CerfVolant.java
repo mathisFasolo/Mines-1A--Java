@@ -18,6 +18,11 @@ public class CerfVolant extends Quadrilatere
         return "Un Cerf-volant est un quadrilatère ayant deux paires de côtés adjacents qui ont la même longueur.";
     }
 
+    public String type()
+    {
+        return "Je suis un CerfVolant.";
+    }
+
     public int calculAire()
     {
         return (super.calculLargeur()*super.calculLongueur())/2;

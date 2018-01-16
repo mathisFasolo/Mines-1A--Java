@@ -18,4 +18,9 @@ public class Parallelogramme extends Quadrilatere
         return "Un parallélogramme est un quadrilatère dans lequel : les côtés opposés sont parallèles et ont la même longueur deux à deux, les diagonales se coupent en leur milieu.";
     }
 
+    public String type()
+    {
+        return "Je suis un Parallelogramme.";
+    }
+
 }

@@ -17,4 +17,9 @@ public class Trapeze extends Quadrilatere
     {
         return  "Un trapèze est un quadrilatère, possédant deux côtés opposés parallèles.";
     }
+
+    public String type()
+    {
+        return "Je suis un Trapéze.";
+    }
 }

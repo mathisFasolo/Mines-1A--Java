@@ -18,6 +18,11 @@ public class Carre extends Rectangle
         return  "Un carré est un quadrilatère qui a quatre côtés de même longueur et quatre angles droits.";
     }
 
+    public String type()
+    {
+        return "Je suis un Carre.";
+    }
+
     @Override
     public int calculAire()
     {

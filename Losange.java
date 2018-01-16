@@ -18,4 +18,9 @@ public class Losange extends Parallelogramme
         return "Un losange est un quadrilatère qui a quatre côtés de même longueur";
     }
 
+    public String type()
+    {
+        return "Je suis un Rectangle.";
+    }
+
 }
